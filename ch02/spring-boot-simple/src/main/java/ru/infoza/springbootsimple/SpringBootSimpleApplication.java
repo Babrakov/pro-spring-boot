@@ -18,6 +18,7 @@ public class SpringBootSimpleApplication {
 //				out.println("\n\nThis is my own banner!\n\n".toUpperCase());
 //			}
 //		});
+		app.setBannerMode(Banner.Mode.OFF);
 		app.run(args);
 	}
 
