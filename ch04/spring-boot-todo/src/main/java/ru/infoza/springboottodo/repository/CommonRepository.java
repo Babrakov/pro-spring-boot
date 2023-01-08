@@ -1,4 +1,4 @@
-package ru.infoza.springboottodo.repositiry;
+package ru.infoza.springboottodo.repository;
 
 import java.util.Collection;
 

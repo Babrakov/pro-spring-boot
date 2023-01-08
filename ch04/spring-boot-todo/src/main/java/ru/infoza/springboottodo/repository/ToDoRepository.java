@@ -1,5 +1,6 @@
-package ru.infoza.springboottodo.repositiry;
+package ru.infoza.springboottodo.repository;
 
+import org.springframework.stereotype.Repository;
 import ru.infoza.springboottodo.domain.ToDo;
 
 import java.time.LocalDateTime;
@@ -9,6 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+@Repository
 public class ToDoRepository implements CommonRepository<ToDo> {
 
     private Map<String,ToDo> toDos = new HashMap<>();
